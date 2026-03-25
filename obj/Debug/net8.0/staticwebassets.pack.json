@@ -1,107 +1,107 @@
 {
   "Files": [
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\close-btn.png",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\close-btn.png",
       "PackagePath": "staticwebassets\\assets\\img\\close-btn.png"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\diagnosis-300x300-1.webp",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\diagnosis-300x300-1.webp",
       "PackagePath": "staticwebassets\\assets\\img\\diagnosis-300x300-1.webp"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\fondoPantalla.png",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\fondoPantalla.png",
       "PackagePath": "staticwebassets\\assets\\img\\fondoPantalla.png"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\imagenTaller1.jpg",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\imagenTaller1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\imagenTaller1.jpg"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\imagenTaller2.jpg",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\imagenTaller2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\imagenTaller2.jpg"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\imagenTaller3.jpg",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\imagenTaller3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\imagenTaller3.jpg"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\logo.png",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo.png"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\mantenimiento-1-300x300-1.webp",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\mantenimiento-1-300x300-1.webp",
       "PackagePath": "staticwebassets\\assets\\img\\mantenimiento-1-300x300-1.webp"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\menuHamburguesa.jpg",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\menuHamburguesa.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\menuHamburguesa.jpg"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\neumaticos-300x300-1-150x150.webp",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\neumaticos-300x300-1-150x150.webp",
       "PackagePath": "staticwebassets\\assets\\img\\neumaticos-300x300-1-150x150.webp"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\reparacion-300x300-1-150x150.webp",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\reparacion-300x300-1-150x150.webp",
       "PackagePath": "staticwebassets\\assets\\img\\reparacion-300x300-1-150x150.webp"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\suspension_2-300x300-1-150x150.webp",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\suspension_2-300x300-1-150x150.webp",
       "PackagePath": "staticwebassets\\assets\\img\\suspension_2-300x300-1-150x150.webp"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\taller-accion.jpg",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\taller-accion.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\taller-accion.jpg"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\img\\whatsapp.svg",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\whatsapp.svg",
       "PackagePath": "staticwebassets\\assets\\img\\whatsapp.svg"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\videos\\videoCoche.mp4",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\videos\\videoCoche.mp4",
       "PackagePath": "staticwebassets\\assets\\videos\\videoCoche.mp4"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\assets\\videos\\videoCoche2.mp4",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\videos\\videoCoche2.mp4",
       "PackagePath": "staticwebassets\\assets\\videos\\videoCoche2.mp4"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\favicon.ico",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\img\\diagnosis.webp",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\img\\diagnosis.webp",
       "PackagePath": "staticwebassets\\img\\diagnosis.webp"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\img\\mantenimiento.webp",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\img\\mantenimiento.webp",
       "PackagePath": "staticwebassets\\img\\mantenimiento.webp"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\img\\neumaticos.webp",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\img\\neumaticos.webp",
       "PackagePath": "staticwebassets\\img\\neumaticos.webp"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\img\\reparacion.webp",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\img\\reparacion.webp",
       "PackagePath": "staticwebassets\\img\\reparacion.webp"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\img\\suspension.webp",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\img\\suspension.webp",
       "PackagePath": "staticwebassets\\img\\suspension.webp"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\index.html",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\main-V4SXW7KT.js",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\main-V4SXW7KT.js",
       "PackagePath": "staticwebassets\\main-V4SXW7KT.js"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\polyfills-B6TNHZQ6.js",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\polyfills-B6TNHZQ6.js",
       "PackagePath": "staticwebassets\\polyfills-B6TNHZQ6.js"
     },
     {
-      "Id": "D:\\Plan 1 negocio plantillas\\TallerBackend\\wwwroot\\styles-5INURTSO.css",
+      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\styles-5INURTSO.css",
       "PackagePath": "staticwebassets\\styles-5INURTSO.css"
     },
     {

@@ -10,6 +10,6 @@ namespace TallerBackend.Data
         {
         }
 
-        public DbSet<Servicio> Servicios { get; set; }
+        public DbSet<Producto> Productos { get; set; }
     }
 }
