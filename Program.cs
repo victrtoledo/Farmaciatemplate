@@ -70,28 +70,32 @@ app.MapFallbackToFile("index.html");
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
+    var logger = services.GetRequiredService<ILogger<Program>>();
     try 
     {
-        var db = services.GetRequiredService<AppDbContext>();
-
-        // Lógica que copiaste de tu otra web: Crear carpeta /home/data si no existe (Para Azure)
         var currentConn = builder.Configuration.GetConnectionString("DefaultConnection") ?? "";
+        logger.LogInformation("🔍 Connection string: {conn}", currentConn);
+
         if (currentConn.Contains("/home/data"))
         {
             var dbDir = "/home/data";
+            logger.LogInformation("📁 ¿Existe /home/data? {exists}", Directory.Exists(dbDir));
+            
             if (!Directory.Exists(dbDir))
             {
                 Directory.CreateDirectory(dbDir);
+                logger.LogInformation("📁 Directorio creado");
             }
         }
 
-        // Crea la base de datos si no existe
-        db.Database.EnsureCreated(); 
+        var db = services.GetRequiredService<AppDbContext>();
+        db.Database.EnsureCreated();
+        logger.LogInformation("✅ Base de datos lista");
     }
     catch (Exception ex)
     {
-        var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "Ocurrió un error al crear la base de datos.");
+        logger.LogError(ex, "❌ Error al inicializar la DB: {message}", ex.Message);
+        // ⚠️ NO relanzamos para que la app arranque y podamos ver los logs
     }
 }
 
