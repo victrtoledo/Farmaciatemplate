@@ -7,20 +7,13 @@ var builder = WebApplication.CreateBuilder(args);
 // 1. CONFIGURACIÓN DE SERVICIOS
 // -----------------------------------------------------------
 
-builder.Services.AddControllers().AddJsonOptions(x =>
-    x.JsonSerializerOptions.ReferenceHandler = 
-        System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles
-);
-
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// DB - Lee del appsettings o usa el fallback local
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
-                    ?? "Data Source=FarmaciaDB.db";
-
+// Inyección del DbContext leyendo la ruta del appsettings.json
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(connectionString));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Configuración de CORS
 builder.Services.AddCors(options =>
@@ -43,7 +36,7 @@ var app = builder.Build();
 // 2. PIPELINE DE MIDDLEWARES (EL ORDEN ES VITAL)
 // -----------------------------------------------------------
 
-// Swagger disponible para usar Postman fácilmente
+// Swagger siempre disponible para que puedas usar Postman fácilmente en producción si lo necesitas
 app.UseSwagger();
 app.UseSwaggerUI();
 
@@ -55,47 +48,30 @@ app.UseStaticFiles();
 
 app.UseRouting(); // <--- 1º Routing
 
-app.UseCors("AllowAngular"); // <--- 2º CORS
+app.UseCors("AllowAngular"); // <--- 2º CORS (Siempre después de Routing)
 
-app.UseAuthorization(); // <--- 3º Autorización (aunque no tengas JWT, se deja por estructura)
+app.UseAuthorization(); // <--- 3º Autorización
 
 app.MapControllers();
 
-// Fallback para Angular
+// Fallback para Angular: Si la ruta no es de la API, devuelve el index.html
 app.MapFallbackToFile("index.html");
 
 // -----------------------------------------------------------
-// 3. INICIALIZACIÓN DE LA DB Y CARPETAS
+// 3. INICIALIZACIÓN AUTOMÁTICA DE LA DB
 // -----------------------------------------------------------
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
-    var logger = services.GetRequiredService<ILogger<Program>>();
     try 
     {
-        var currentConn = builder.Configuration.GetConnectionString("DefaultConnection") ?? "";
-        logger.LogInformation("🔍 Connection string: {conn}", currentConn);
-
-        if (currentConn.Contains("/home/data"))
-        {
-            var dbDir = "/home/data";
-            logger.LogInformation("📁 ¿Existe /home/data? {exists}", Directory.Exists(dbDir));
-            
-            if (!Directory.Exists(dbDir))
-            {
-                Directory.CreateDirectory(dbDir);
-                logger.LogInformation("📁 Directorio creado");
-            }
-        }
-
         var db = services.GetRequiredService<AppDbContext>();
-        db.Database.EnsureCreated();
-        logger.LogInformation("✅ Base de datos lista");
+        db.Database.EnsureCreated(); 
     }
     catch (Exception ex)
     {
-        logger.LogError(ex, "❌ Error al inicializar la DB: {message}", ex.Message);
-        // ⚠️ NO relanzamos para que la app arranque y podamos ver los logs
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "Ocurrió un error al crear la base de datos.");
     }
 }
 
