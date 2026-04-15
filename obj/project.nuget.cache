@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3udEO7mq6RE=",
+  "dgSpecHash": "nFVWPTIgA1w=",
   "success": true,
-  "projectFilePath": "D:\\muebles rosan\\MueblesRosan\\TallerBackend.csproj",
+  "projectFilePath": "D:\\farmacias template\\FarmaciasBackend\\TallerBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

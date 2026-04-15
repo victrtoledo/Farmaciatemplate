@@ -4617,11 +4617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\muebles rosan\\MueblesRosan\\TallerBackend.csproj",
+      "projectUniqueName": "D:\\farmacias template\\FarmaciasBackend\\TallerBackend.csproj",
       "projectName": "TallerBackend",
-      "projectPath": "D:\\muebles rosan\\MueblesRosan\\TallerBackend.csproj",
+      "projectPath": "D:\\farmacias template\\FarmaciasBackend\\TallerBackend.csproj",
       "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-      "outputPath": "D:\\muebles rosan\\MueblesRosan\\obj\\",
+      "outputPath": "D:\\farmacias template\\FarmaciasBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config"

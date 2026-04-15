@@ -1,107 +1,135 @@
 {
   "Files": [
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\close-btn.png",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\MueblesRosanLogo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\MueblesRosanLogo.png"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\MueblesRosanLogo2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\MueblesRosanLogo2.png"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\cama-velvet.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\cama-velvet.webp"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\close-btn.png",
       "PackagePath": "staticwebassets\\assets\\img\\close-btn.png"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\diagnosis-300x300-1.webp",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\diagnosis-300x300-1.webp",
       "PackagePath": "staticwebassets\\assets\\img\\diagnosis-300x300-1.webp"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\fondoPantalla.png",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\estanteria-loft.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\estanteria-loft.webp"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\favicon2.PNG",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon2.PNG"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\fondoPantalla.png",
       "PackagePath": "staticwebassets\\assets\\img\\fondoPantalla.png"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\imagenTaller1.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\imagenTaller1.jpg"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\lampara-arc.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\lampara-arc.webp"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\imagenTaller2.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\imagenTaller2.jpg"
-    },
-    {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\imagenTaller3.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\imagenTaller3.jpg"
-    },
-    {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\logo.png",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo.png"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\mantenimiento-1-300x300-1.webp",
-      "PackagePath": "staticwebassets\\assets\\img\\mantenimiento-1-300x300-1.webp"
-    },
-    {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\menuHamburguesa.jpg",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\menuHamburguesa.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\menuHamburguesa.jpg"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\neumaticos-300x300-1-150x150.webp",
-      "PackagePath": "staticwebassets\\assets\\img\\neumaticos-300x300-1-150x150.webp"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\mesa-roble.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\mesa-roble.webp"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\reparacion-300x300-1-150x150.webp",
-      "PackagePath": "staticwebassets\\assets\\img\\reparacion-300x300-1-150x150.webp"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\muebles1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\muebles1.jpg"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\suspension_2-300x300-1-150x150.webp",
-      "PackagePath": "staticwebassets\\assets\\img\\suspension_2-300x300-1-150x150.webp"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\muebles2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\muebles2.jpg"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\taller-accion.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\taller-accion.jpg"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\muebles3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\muebles3.jpg"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\img\\whatsapp.svg",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\sillon-mimbre.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\sillon-mimbre.webp"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\sofa-nube.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\sofa-nube.webp"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\whatsapp.svg",
       "PackagePath": "staticwebassets\\assets\\img\\whatsapp.svg"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\videos\\videoCoche.mp4",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\videos\\muebles.mp4",
+      "PackagePath": "staticwebassets\\assets\\videos\\muebles.mp4"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\videos\\muebles2.mp4",
+      "PackagePath": "staticwebassets\\assets\\videos\\muebles2.mp4"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\videos\\videoCoche.mp4",
       "PackagePath": "staticwebassets\\assets\\videos\\videoCoche.mp4"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\assets\\videos\\videoCoche2.mp4",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\videos\\videoCoche2.mp4",
       "PackagePath": "staticwebassets\\assets\\videos\\videoCoche2.mp4"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\favicon.ico",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\img\\diagnosis.webp",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\diagnosis.webp",
       "PackagePath": "staticwebassets\\img\\diagnosis.webp"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\img\\mantenimiento.webp",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\mantenimiento.webp",
       "PackagePath": "staticwebassets\\img\\mantenimiento.webp"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\img\\neumaticos.webp",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\neumaticos.webp",
       "PackagePath": "staticwebassets\\img\\neumaticos.webp"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\img\\reparacion.webp",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\reparacion.webp",
       "PackagePath": "staticwebassets\\img\\reparacion.webp"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\img\\suspension.webp",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\suspension.webp",
       "PackagePath": "staticwebassets\\img\\suspension.webp"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\index.html",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\main-V4SXW7KT.js",
-      "PackagePath": "staticwebassets\\main-V4SXW7KT.js"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-5XI2M2JG.js",
+      "PackagePath": "staticwebassets\\main-5XI2M2JG.js"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\polyfills-B6TNHZQ6.js",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\polyfills-B6TNHZQ6.js",
       "PackagePath": "staticwebassets\\polyfills-B6TNHZQ6.js"
     },
     {
-      "Id": "D:\\muebles rosan\\MueblesRosan\\wwwroot\\styles-5INURTSO.css",
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\styles-5INURTSO.css",
       "PackagePath": "staticwebassets\\styles-5INURTSO.css"
     },
     {
