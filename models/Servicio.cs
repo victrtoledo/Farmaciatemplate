@@ -9,17 +9,15 @@ namespace TallerBackend.Models
         public int Id { get; set; }
 
         [Required, MaxLength(200)]
-        public string Nombre { get; set; }
+        public string Nombre { get; set; } = string.Empty;
 
         [Required, MaxLength(1000)]
-        public string Descripcion { get; set; }
+        public string Descripcion { get; set; } = string.Empty;
 
         [Required, MaxLength(500)]
-        public string ImagenUrl { get; set; }
+        public string ImagenUrl { get; set; } = string.Empty;
 
-        [Column(TypeName = "decimal(18,2)")]
+        // ✅ Quita el Column(TypeName) — SQLite lo guarda como REAL/TEXT igualmente
         public decimal Precio { get; set; }
-
-        
     }
 }
