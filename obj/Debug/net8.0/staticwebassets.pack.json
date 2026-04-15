@@ -25,6 +25,18 @@
       "PackagePath": "staticwebassets\\assets\\img\\estanteria-loft.webp"
     },
     {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-exterior.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\farmacia-exterior.jpg"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-interior.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\farmacia-interior.jpg"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-laboratorio.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\farmacia-laboratorio.jpg"
+    },
+    {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\favicon.png",
       "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
     },
@@ -37,8 +49,24 @@
       "PackagePath": "staticwebassets\\assets\\img\\fondoPantalla.png"
     },
     {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\foto-farmacia.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\foto-farmacia.jpg"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\interior.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\interior.jpg"
+    },
+    {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\lampara-arc.webp",
       "PackagePath": "staticwebassets\\assets\\img\\lampara-arc.webp"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\logo-farmacia.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-farmacia.png"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\logo-farmacia.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-farmacia.svg"
     },
     {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\logo.png",
@@ -77,6 +105,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\whatsapp.svg"
     },
     {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\videos\\farmacia-pastillas.mp4",
+      "PackagePath": "staticwebassets\\assets\\videos\\farmacia-pastillas.mp4"
+    },
+    {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\videos\\muebles.mp4",
       "PackagePath": "staticwebassets\\assets\\videos\\muebles.mp4"
     },
@@ -93,36 +125,32 @@
       "PackagePath": "staticwebassets\\assets\\videos\\videoCoche2.mp4"
     },
     {
-      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\analisis-rapido.jpg",
+      "PackagePath": "staticwebassets\\img\\analisis-rapido.jpg"
     },
     {
-      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\diagnosis.webp",
-      "PackagePath": "staticwebassets\\img\\diagnosis.webp"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\dermocometica.jpg",
+      "PackagePath": "staticwebassets\\img\\dermocometica.jpg"
     },
     {
-      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\mantenimiento.webp",
-      "PackagePath": "staticwebassets\\img\\mantenimiento.webp"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\salud.jpg",
+      "PackagePath": "staticwebassets\\img\\salud.jpg"
     },
     {
-      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\neumaticos.webp",
-      "PackagePath": "staticwebassets\\img\\neumaticos.webp"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\spd.webp",
+      "PackagePath": "staticwebassets\\img\\spd.webp"
     },
     {
-      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\reparacion.webp",
-      "PackagePath": "staticwebassets\\img\\reparacion.webp"
-    },
-    {
-      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\suspension.webp",
-      "PackagePath": "staticwebassets\\img\\suspension.webp"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\tension.jpg",
+      "PackagePath": "staticwebassets\\img\\tension.jpg"
     },
     {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-5XI2M2JG.js",
-      "PackagePath": "staticwebassets\\main-5XI2M2JG.js"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-V7ENZKSA.js",
+      "PackagePath": "staticwebassets\\main-V7ENZKSA.js"
     },
     {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\polyfills-B6TNHZQ6.js",
