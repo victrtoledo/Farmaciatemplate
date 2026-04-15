@@ -3,76 +3,62 @@ using TallerBackend.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// -----------------------------------------------------------
-// 1. CONFIGURACIÓN DE SERVICIOS
-// -----------------------------------------------------------
-
+// ------------------- Servicios -------------------
+// Controllers y Swagger
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Inyección del DbContext leyendo la ruta del appsettings.json
+// DbContext SQLite
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite("Data Source=FarmaciaDB.db"));
 
-// Configuración de CORS
+// CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular", policy =>
     {
         policy.WithOrigins(
-                "http://localhost:4200", 
-                "https://farmaciamonteagudo-dhe7dqachzb0f2h4.spaincentral-01.azurewebsites.net"
-              )
+            "http://localhost:4200", // Angular dev
+            "https://farmaciamonteagudo-dhe7dqachzb0f2h4.spaincentral-01.azurewebsites.net") // Angular prod
               .AllowAnyMethod()
-              .AllowAnyHeader()
-              .AllowCredentials();
+              .AllowAnyHeader();
     });
 });
 
 var app = builder.Build();
 
-// -----------------------------------------------------------
-// 2. PIPELINE DE MIDDLEWARES (EL ORDEN ES VITAL)
-// -----------------------------------------------------------
+// ------------------- Middlewares -------------------
 
-// Swagger siempre disponible para que puedas usar Postman fácilmente en producción si lo necesitas
-app.UseSwagger();
-app.UseSwaggerUI();
+// Swagger solo en desarrollo
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseHttpsRedirection();
+app.UseCors("AllowAngular");
 
-// Servir archivos de Angular (deben estar en la carpeta wwwroot)
-app.UseDefaultFiles();
-app.UseStaticFiles();
+// Servir Angular
+app.UseDefaultFiles();   // index.html automáticamente
+app.UseStaticFiles();    // archivos estáticos de Angular
 
-app.UseRouting(); // <--- 1º Routing
+app.UseRouting();
+app.UseAuthorization();
 
-app.UseCors("AllowAngular"); // <--- 2º CORS (Siempre después de Routing)
-
-app.UseAuthorization(); // <--- 3º Autorización
-
+// Map Controllers
 app.MapControllers();
 
-// Fallback para Angular: Si la ruta no es de la API, devuelve el index.html
+// ------------------- SPA Fallback -------------------
+// Cualquier ruta que no sea /api/... sirve index.html
 app.MapFallbackToFile("index.html");
 
-// -----------------------------------------------------------
-// 3. INICIALIZACIÓN AUTOMÁTICA DE LA DB
-// -----------------------------------------------------------
+// ------------------- DB Inicial -------------------
 using (var scope = app.Services.CreateScope())
 {
-    var services = scope.ServiceProvider;
-    try 
-    {
-        var db = services.GetRequiredService<AppDbContext>();
-        db.Database.EnsureCreated(); 
-    }
-    catch (Exception ex)
-    {
-        var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "Ocurrió un error al crear la base de datos.");
-    }
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.EnsureCreated(); // crea la DB si no existe
 }
 
 app.Run();
