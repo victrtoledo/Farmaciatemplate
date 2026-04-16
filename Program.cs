@@ -10,11 +10,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // DbContext SQLite
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-                      ?? "Data Source=FarmaciaDB.db";
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(connectionString));
-
+    options.UseSqlite("Data Source=FarmaciaDB.db"));
 
 // CORS
 builder.Services.AddCors(options =>
