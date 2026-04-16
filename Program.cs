@@ -4,14 +4,21 @@ using TallerBackend.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // ------------------- Servicios -------------------
-// Controllers y Swagger
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
 
 // DbContext SQLite
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+                      ?? "Data Source=FarmaciaDB.db";
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite("Data Source=FarmaciaDB.db"));
+    options.UseSqlite(connectionString));
+
+builder.Services.AddControllers().AddJsonOptions(x =>
+    x.JsonSerializerOptions.ReferenceHandler =
+        System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles
+);
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 // CORS
 builder.Services.AddCors(options =>
@@ -57,8 +64,18 @@ app.MapFallbackToFile("index.html");
 // ------------------- DB Inicial -------------------
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    db.Database.EnsureCreated(); // crea la DB si no existe
+   var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+
+    // Crear carpeta /home/data si no existe (Azure)
+    var connectionStr = builder.Configuration.GetConnectionString("DefaultConnection") ?? "";
+    if (connectionStr.Contains("/home/data"))
+    {
+        var dbDir = "/home/data";
+        if (!Directory.Exists(dbDir))
+            Directory.CreateDirectory(dbDir);
+    }
+
+    db.Database.Migrate();
 }
 
 app.Run();
