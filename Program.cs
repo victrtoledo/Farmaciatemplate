@@ -4,7 +4,10 @@ using TallerBackend.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // ------------------- Servicios -------------------
-
+// Controllers y Swagger
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 // DbContext SQLite
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
@@ -12,13 +15,6 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(connectionString));
 
-builder.Services.AddControllers().AddJsonOptions(x =>
-    x.JsonSerializerOptions.ReferenceHandler =
-        System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles
-);
-
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 // CORS
 builder.Services.AddCors(options =>
