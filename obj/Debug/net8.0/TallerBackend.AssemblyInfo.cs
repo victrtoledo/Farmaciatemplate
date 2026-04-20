@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TallerBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c9b7746b03b6859b4fb2cd21c09bb9fd5a1a0bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e4e79178d646e516a3e2e62a31cc250f2f56096")]
 [assembly: System.Reflection.AssemblyProductAttribute("TallerBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TallerBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
