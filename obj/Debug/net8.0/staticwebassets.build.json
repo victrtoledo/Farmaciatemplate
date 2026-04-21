@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BQH4fdwgopBGMtJSpuPbg8p1unQdG5rthL1cbw89esM=",
+  "Hash": "Zc79m2XzLeBiAQi77/BLywfwGdtS2M5Yj8bC5xC8Wr0=",
   "Source": "TallerBackend",
   "BasePath": "_content/TallerBackend",
   "Mode": "Default",
@@ -112,6 +112,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-exterior.jpg"
     },
     {
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-exterior.webp",
+      "SourceId": "TallerBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
+      "BasePath": "_content/TallerBackend",
+      "RelativePath": "assets/img/farmacia-exterior.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-exterior.webp"
+    },
+    {
       "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-interior.jpg",
       "SourceId": "TallerBackend",
       "SourceType": "Discovered",
@@ -129,6 +148,63 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-interior.jpg"
+    },
+    {
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-interior.webp",
+      "SourceId": "TallerBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
+      "BasePath": "_content/TallerBackend",
+      "RelativePath": "assets/img/farmacia-interior.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-interior.webp"
+    },
+    {
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-interior2.webp",
+      "SourceId": "TallerBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
+      "BasePath": "_content/TallerBackend",
+      "RelativePath": "assets/img/farmacia-interior2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-interior2.webp"
+    },
+    {
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-interior3.webp",
+      "SourceId": "TallerBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
+      "BasePath": "_content/TallerBackend",
+      "RelativePath": "assets/img/farmacia-interior3.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-interior3.webp"
     },
     {
       "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-laboratorio.jpg",
@@ -319,6 +395,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\logo-farmacia.svg"
+    },
+    {
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\logo-farmacia2.png",
+      "SourceId": "TallerBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
+      "BasePath": "_content/TallerBackend",
+      "RelativePath": "assets/img/logo-farmacia2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\logo-farmacia2.png"
     },
     {
       "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\logo.png",
@@ -663,12 +758,12 @@
       "OriginalItemSpec": "wwwroot\\img\\analisis-rapido.jpg"
     },
     {
-      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\dermocometica.jpg",
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\pendientes.jpg",
       "SourceId": "TallerBackend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
       "BasePath": "_content/TallerBackend",
-      "RelativePath": "img/dermocometica.jpg",
+      "RelativePath": "img/pendientes.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -679,7 +774,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\dermocometica.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\pendientes.jpg"
     },
     {
       "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\salud.jpg",
@@ -758,12 +853,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-Y4KKIKPT.js",
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-TKTJI4LL.js",
       "SourceId": "TallerBackend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
       "BasePath": "_content/TallerBackend",
-      "RelativePath": "main-Y4KKIKPT.js",
+      "RelativePath": "main-TKTJI4LL.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -774,7 +869,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main-Y4KKIKPT.js"
+      "OriginalItemSpec": "wwwroot\\main-TKTJI4LL.js"
     },
     {
       "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\polyfills-B6TNHZQ6.js",
