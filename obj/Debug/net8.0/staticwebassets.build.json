@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zc79m2XzLeBiAQi77/BLywfwGdtS2M5Yj8bC5xC8Wr0=",
+  "Hash": "Sc5lYXqVWaZaEqw3DBlcpGWnn9hnUnQsF+fGjOphHy4=",
   "Source": "TallerBackend",
   "BasePath": "_content/TallerBackend",
   "Mode": "Default",
@@ -224,6 +224,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-laboratorio.jpg"
+    },
+    {
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-personal.jpeg",
+      "SourceId": "TallerBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
+      "BasePath": "_content/TallerBackend",
+      "RelativePath": "assets/img/farmacia-personal.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-personal.jpeg"
     },
     {
       "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\favicon-farmacia.svg",
@@ -758,6 +777,25 @@
       "OriginalItemSpec": "wwwroot\\img\\analisis-rapido.jpg"
     },
     {
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\Como_usar_cupon (3) (2).mp4",
+      "SourceId": "TallerBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
+      "BasePath": "_content/TallerBackend",
+      "RelativePath": "img/Como_usar_cupon (3) (2).mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Como_usar_cupon (3) (2).mp4"
+    },
+    {
       "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\pendientes.jpg",
       "SourceId": "TallerBackend",
       "SourceType": "Discovered",
@@ -853,12 +891,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-TKTJI4LL.js",
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-R6CUFBXI.js",
       "SourceId": "TallerBackend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
       "BasePath": "_content/TallerBackend",
-      "RelativePath": "main-TKTJI4LL.js",
+      "RelativePath": "main-R6CUFBXI.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -869,7 +907,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main-TKTJI4LL.js"
+      "OriginalItemSpec": "wwwroot\\main-R6CUFBXI.js"
     },
     {
       "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\polyfills-B6TNHZQ6.js",

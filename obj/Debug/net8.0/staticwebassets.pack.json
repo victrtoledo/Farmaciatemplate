@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\farmacia-laboratorio.jpg"
     },
     {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-personal.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\farmacia-personal.jpeg"
+    },
+    {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\favicon-farmacia.svg",
       "PackagePath": "staticwebassets\\assets\\img\\favicon-farmacia.svg"
     },
@@ -153,6 +157,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\Como_usar_cupon (3) (2).mp4",
+      "PackagePath": "staticwebassets\\img\\Como_usar_cupon (3) (2).mp4"
+    },
+    {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\img\\analisis-rapido.jpg",
       "PackagePath": "staticwebassets\\img\\analisis-rapido.jpg"
     },
@@ -177,8 +185,8 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-TKTJI4LL.js",
-      "PackagePath": "staticwebassets\\main-TKTJI4LL.js"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-R6CUFBXI.js",
+      "PackagePath": "staticwebassets\\main-R6CUFBXI.js"
     },
     {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\polyfills-B6TNHZQ6.js",
