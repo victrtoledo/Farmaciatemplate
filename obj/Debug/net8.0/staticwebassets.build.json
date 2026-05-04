@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Sc5lYXqVWaZaEqw3DBlcpGWnn9hnUnQsF+fGjOphHy4=",
+  "Hash": "W3UfgkykzJ8oacRM0oBGnMTaPfubipm6u0V0rErdgcs=",
   "Source": "TallerBackend",
   "BasePath": "_content/TallerBackend",
   "Mode": "Default",
@@ -129,6 +129,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-exterior.webp"
+    },
+    {
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-ia.png",
+      "SourceId": "TallerBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
+      "BasePath": "_content/TallerBackend",
+      "RelativePath": "assets/img/farmacia-ia.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-ia.png"
+    },
+    {
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-ia2.png",
+      "SourceId": "TallerBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
+      "BasePath": "_content/TallerBackend",
+      "RelativePath": "assets/img/farmacia-ia2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\farmacia-ia2.png"
     },
     {
       "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-interior.jpg",
@@ -891,12 +929,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-R6CUFBXI.js",
+      "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-2J354IST.js",
       "SourceId": "TallerBackend",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\",
       "BasePath": "_content/TallerBackend",
-      "RelativePath": "main-R6CUFBXI.js",
+      "RelativePath": "main-2J354IST.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -907,7 +945,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main-R6CUFBXI.js"
+      "OriginalItemSpec": "wwwroot\\main-2J354IST.js"
     },
     {
       "Identity": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\polyfills-B6TNHZQ6.js",

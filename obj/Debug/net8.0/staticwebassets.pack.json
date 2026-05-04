@@ -33,6 +33,14 @@
       "PackagePath": "staticwebassets\\assets\\img\\farmacia-exterior.webp"
     },
     {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-ia.png",
+      "PackagePath": "staticwebassets\\assets\\img\\farmacia-ia.png"
+    },
+    {
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-ia2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\farmacia-ia2.png"
+    },
+    {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\assets\\img\\farmacia-interior.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\farmacia-interior.jpg"
     },
@@ -185,8 +193,8 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-R6CUFBXI.js",
-      "PackagePath": "staticwebassets\\main-R6CUFBXI.js"
+      "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\main-2J354IST.js",
+      "PackagePath": "staticwebassets\\main-2J354IST.js"
     },
     {
       "Id": "D:\\farmacias template\\FarmaciasBackend\\wwwroot\\polyfills-B6TNHZQ6.js",
